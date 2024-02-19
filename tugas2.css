@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #B5C0D0;
+  }
+  
+  /* Container form */
+  .form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style untuk judul form */
+  h3{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Style untuk input text */
+  .form-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style untuk tombol submit */
+  .form-submit {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #40A2E3;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style untuk tombol submit saat dihover */
+  .form-submit:hover {
+    background-color: #45a049;
+  }
